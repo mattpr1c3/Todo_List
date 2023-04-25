@@ -1,7 +1,20 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Welcome to the Todo-List app!
 
 ## Description
 Have you ever wanted to keep track of your daily tasks but not wanted to go through the hassle of having to use a pen and paper? If so, then the Todo-List app is for you. It allows you to digitally track your daily productivity in an easy and user friendly manner.
+
+## Table of Contents
+- [Description](#description)
+- [How to get started](#here-is-how-to-get-started-its-very-simple)
+- [What I Learned](#what-i-learned)
+- [Screenshot of Application](#screenshot-of-application)
+- [Links](#links)
+- [QR code](#qr-code)
+- [Questions?](#questions)
+- [License](#license)
+
 
 ## Here is how to get started (it's very simple)
 - First, type a task into the task bar
@@ -33,8 +46,18 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(newTasks));
   }
 ```
+## Screenshot of Application
+![screenshot of todo-list application](./client/src/assets/walkthroughgif.gif)
+
 ## Links
-Please, click this [Link](https://watch.screencastify.com/v/9NpUsZ7gDEm7iZTf0WwH) to view a detailed walkthrough video of how to use the app.
+Please, click this [Link](https://watch.screencastify.com/v/9NpUsZ7gDEm7iZTf0WwH) to view a detailed walkthrough video of how to use the app, or simply scan the QR code below.
+
+## QR Code
+![qr-code](./client/src/assets/qr-code.png)
 
 ## Questions?
 My github username is mattpr1c3 and please feel free to email me at matthew.pr1c3@gmail.com for any questions, comments, or concerns.
+
+## License
+
+MIT
