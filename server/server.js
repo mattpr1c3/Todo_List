@@ -1,10 +1,13 @@
 import express from "express";
 import config from "./config/index.js";
 // TODO: import router from routes/
-import router from "./routes/index.js"
+import router from "./routes/api/nodeapi.js"
+import cors from "cors"
 // import path from "path";
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 // app.use(express.static(path.join(__dirname, "./public")))
